@@ -1,0 +1,21 @@
+{
+  "name": "sekiro-theme",
+  "displayName": "Sekiro Theme",
+  "description": "A fan made Sekiro theme based off of Fountainhead Palace and the Corrupted Monk boss area",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sekiro Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Sekiro Theme-color-theme.json"
+      }
+    ]
+  }
+}
